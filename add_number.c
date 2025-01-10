@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
     int x, y, z;
-    scanf("%d", &x);
-    printf("%d", x%10);
+    scanf("%d %d %d", &x, &y, &z);
+    printf("%d", x+y+z);
 }

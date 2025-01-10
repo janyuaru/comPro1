@@ -2,9 +2,9 @@
 void main(){
     int x;
     scanf("%d", &x);
-    if (x%2 != 0){
-        printf("odd");
+    if(x<0){
+        printf("%d", -(x));
     } else {
-        printf("even");
+        printf("%d", x);
     }
 }
